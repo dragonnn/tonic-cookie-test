@@ -1,0 +1,12 @@
+proto < ./proto/helloworld.proto
+
+
+###
+GRPC 127.0.0.1:3000/helloworld.Greeter/SetCookie
+{
+  "name": "test"
+}
+
+
+GRPC 127.0.0.1:3000/helloworld.Greeter/GetCookie
+{}
